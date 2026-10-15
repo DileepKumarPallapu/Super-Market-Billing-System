@@ -120,7 +120,7 @@ export default function Footer() {
             </p>
             <div className="developer-links">
               <a
-                href="https://www.linkedin.com/in/dileep-kumar-pallapu-16a003253"
+                href="https://www.linkedin.com/in/dileep-kumar-pallapu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="developer-link-btn linkedin-btn"
@@ -131,7 +131,7 @@ export default function Footer() {
                 </div>
                 <div className="link-text-wrap">
                   <span className="link-title">LinkedIn</span>
-                  <span className="link-handle">dileep-kumar-pallapu-16a003253</span>
+                  <span className="link-handle">dileep-kumar-pallapu</span>
                 </div>
                 <ExternalLink size={14} className="link-external-icon" />
               </a>

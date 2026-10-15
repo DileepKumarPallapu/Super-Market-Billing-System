@@ -11,7 +11,7 @@ A production-grade, full-stack Supermarket Billing, ERP, and Point of Sale (POS)
 - **Department**: Department of Computer Science and Engineering
 - **Institution**: Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology
 - **Academic Year**: 2026–2027
-- **LinkedIn Profile**: [linkedin.com/in/dileep-kumar-pallapu-16a003253](https://www.linkedin.com/in/dileep-kumar-pallapu-16a003253)
+- **LinkedIn Profile**: [linkedin.com/in/dileep-kumar-pallapu](https://www.linkedin.com/in/dileep-kumar-pallapu)
 - **GitHub Profile**: [github.com/DileepKumarPallapu](https://github.com/DileepKumarPallapu)
 - **GitHub Repository**: [github.com/DileepKumarPallapu/Super-Market-Billing-System](https://github.com/DileepKumarPallapu/Super-Market-Billing-System)
 

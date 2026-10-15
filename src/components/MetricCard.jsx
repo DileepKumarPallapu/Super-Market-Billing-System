@@ -1,12 +1,29 @@
 import React from 'react';
 
-export default function MetricCard({ title, value, subtitle, icon: Icon, color = 'var(--primary)', onClick }) {
+export default function MetricCard({
+  title,
+  value,
+  subtitle,
+  icon: Icon,
+  color = 'var(--brand-primary)',
+  onClick,
+  badge,
+  badgeType = 'neutral'
+}) {
   return (
     <div
       className={`metric-card ${onClick ? 'clickable' : ''}`}
       onClick={onClick}
-      style={onClick ? { cursor: 'pointer' } : undefined}
+      role={onClick ? 'button' : undefined}
+      tabIndex={onClick ? 0 : undefined}
+      onKeyDown={e => {
+        if (onClick && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          onClick();
+        }
+      }}
       title={onClick ? `Open ${title}` : undefined}
+      style={{ '--card-accent': color }}
     >
       <div className="metric-top">
         <span className="metric-title">{title}</span>
@@ -15,7 +32,12 @@ export default function MetricCard({ title, value, subtitle, icon: Icon, color =
         </div>
       </div>
       <div className="metric-val">{value}</div>
-      {subtitle && <div className="metric-sub">{subtitle}</div>}
+      <div className="metric-bottom-row">
+        {subtitle && <span className="metric-sub">{subtitle}</span>}
+        {badge && (
+          <span className={`metric-badge badge-${badgeType}`}>{badge}</span>
+        )}
+      </div>
     </div>
   );
 }

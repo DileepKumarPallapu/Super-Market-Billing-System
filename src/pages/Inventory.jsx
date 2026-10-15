@@ -104,7 +104,7 @@ export default function Inventory() {
           value={formatCurrency(totalValuation)}
           subtitle="Click to view all products"
           icon={IndianRupee}
-          color="#087f5b"
+          color="#E9B44C"
           onClick={() => setFilterStatus('All')}
         />
         <MetricCard
@@ -112,7 +112,7 @@ export default function Inventory() {
           value={totalUnits.toLocaleString('en-IN')}
           subtitle={`${totalProducts} catalogue products`}
           icon={Boxes}
-          color="#3b82f6"
+          color="#4B2142"
           onClick={() => setFilterStatus('All')}
         />
         <MetricCard
@@ -120,7 +120,7 @@ export default function Inventory() {
           value={lowStockItems.length}
           subtitle={`Click to filter (≤ ${defaultThreshold} units)`}
           icon={AlertTriangle}
-          color="#d97706"
+          color="#E76F51"
           onClick={() => setFilterStatus('low_stock')}
         />
         <MetricCard
@@ -128,7 +128,7 @@ export default function Inventory() {
           value={outOfStockItems.length}
           subtitle="Click to filter 0 units"
           icon={XCircle}
-          color="#dc2626"
+          color="#B42332"
           onClick={() => setFilterStatus('out_of_stock')}
         />
       </div>

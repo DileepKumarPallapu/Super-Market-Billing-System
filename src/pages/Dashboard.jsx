@@ -203,7 +203,7 @@ export default function Dashboard() {
       </div>
 
       {/* Primary KPI Metrics */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginBottom: '1rem' }}>
+      <div className="metrics-grid">
         <MetricCard
           title="Master Catalogue"
           value={totalProducts}
@@ -239,7 +239,7 @@ export default function Dashboard() {
       </div>
 
       {/* Secondary Metrics */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginBottom: '1.5rem' }}>
+      <div className="metrics-grid">
         <MetricCard
           title="Today's Sales"
           value={formatCurrency(todayRevenue)}
