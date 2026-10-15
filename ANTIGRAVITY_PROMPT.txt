@@ -1,0 +1,34 @@
+Build/review this project in Google Antigravity as a complete, polished Super Market Billing System demo web app.
+
+Project context:
+- This is a college demo for a Java Super Market Billing System, but the demo UI should be a responsive web POS built with plain HTML, CSS, and JavaScript unless there is a compelling reason to migrate.
+- Keep it easy for a beginner to run in VS Code / Antigravity. Do not require paid APIs, a backend, or a database.
+- Preserve sample products exactly: Rice ₹500 stock 10, Sugar ₹60 stock 20, Milk ₹30 stock 15.
+
+Required features:
+1. Dashboard: product count, current stock value (unit price × stock), completed sales revenue, and units in stock.
+2. Product management: add, remove, update/edit, and search products. Validate non-empty names, positive prices, whole-number non-negative stock, and duplicate names.
+3. Billing counter: browse/search products, add to cart, change quantities, remove items, show subtotal and final total. Prevent cart quantity from exceeding stock. Deduct inventory only after the sale is confirmed.
+4. Coupon: SAVE10 applies exactly 10% off the subtotal. Unknown codes must be rejected clearly. Use currency formatting in Indian rupees.
+5. Inventory: low-stock alert when quantity is 5 or fewer; show out-of-stock separately.
+6. Invoice: itemized invoice with product, unit price, quantity, line total, subtotal, discount, tax line, and final total. Include print / Save as PDF using window.print() and print CSS.
+7. Sales reports: gross/subtotal revenue, discounts, net revenue, average bill, units sold, transaction history, best sellers, and CSV export.
+8. Persistence: save product changes and completed sales in localStorage. Provide a clear way to reset browser storage during testing or document how to reset.
+9. UI: modern retail POS dashboard, clean cards, readable tables, accessible labels, responsive mobile layout, useful empty states, and feedback messages. No fake charts or hard-coded sales metrics.
+10. Correctness: calculations must use numeric values; prevent invalid/oversold quantities; stock changes only on successful checkout; preserve transaction history. Tax must default to ₹0 unless a rate is explicitly configured.
+
+Testing acceptance criteria:
+- Initial products: Rice ₹500/10, Sugar ₹60/20, Milk ₹30/15.
+- Add Rice quantity 2 and Sugar quantity 1: subtotal ₹1,060.
+- Apply SAVE10: discount ₹106, final amount ₹954.
+- On completing the sale, Rice stock becomes 8 and Sugar stock becomes 19; Milk stays 15.
+- Low-stock alert appears at stock 5 and at stock 0.
+- Refreshing the page preserves products and sales.
+- Invoice print view excludes navigation and controls.
+- Sales report updates after a sale.
+
+Run instructions:
+- Explain how to open the project folder in Antigravity.
+- If the app is plain HTML/CSS/JS, open index.html in a browser or use Antigravity's preview/local server.
+- If you choose a framework, give exact terminal commands to install and run it, and ensure package.json scripts exist.
+- Do not claim a feature works unless it is implemented and tested. Tell me the files changed and how to test each major feature.

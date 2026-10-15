@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Outer Orbit Ring -->
+  <ellipse cx="32" cy="32" rx="30" ry="13" stroke="#E76F51" stroke-width="2.5" transform="rotate(-25 32 32)" stroke-dasharray="3 2" opacity="0.8"/>
+  <!-- Planet / Satellite Accent on Orbit -->
+  <circle cx="53" cy="20" r="4.5" fill="#E9B44C"/>
+  
+  <!-- Central Brand Disc -->
+  <circle cx="32" cy="32" r="24" fill="#4B2142"/>
+  
+  <!-- Shopping Basket Motif in Center -->
+  <path d="M22 30 L42 30 L39 44 C38.8 45.2 37.8 46 36.5 46 L27.5 46 C26.2 46 25.2 45.2 25 44 Z" fill="#F7F4EF"/>
+  <path d="M25 30 L30 22 C30.8 20.8 33.2 20.8 34 22 L39 30" stroke="#F7F4EF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <line x1="28" y1="34" x2="29" y2="41" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="32" y1="34" x2="32" y2="41" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="36" y1="34" x2="35" y2="41" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

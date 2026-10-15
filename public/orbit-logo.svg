@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="320" height="72" fill="none">
+  <!-- Circular Orbit + Basket Emblem -->
+  <g transform="translate(8, 6)">
+    <!-- Outer Orbit Ring -->
+    <ellipse cx="30" cy="30" rx="28" ry="12" stroke="#E76F51" stroke-width="2.5" transform="rotate(-25 30 30)" stroke-dasharray="3 2" opacity="0.6"/>
+    <!-- Planet / Satellite Accent on Orbit -->
+    <circle cx="50" cy="18" r="4.5" fill="#E9B44C"/>
+    
+    <!-- Central Brand Ring -->
+    <circle cx="30" cy="30" r="24" fill="#4B2142"/>
+    
+    <!-- Shopping Basket Motif in Center -->
+    <path d="M20 28 L40 28 L37 42 C36.8 43 35.8 44 34.5 44 L25.5 44 C24.2 44 23.2 43 23 42 Z" fill="#F7F4EF"/>
+    <path d="M23 28 L28 20 C28.8 18.8 31.2 18.8 32 20 L37 28" stroke="#F7F4EF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    <line x1="26" y1="32" x2="27" y2="39" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="30" y1="32" x2="30" y2="39" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="34" y1="32" x2="33" y2="39" stroke="#4B2142" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark Text -->
+  <text x="78" y="38" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" letter-spacing="1.5" fill="#4B2142">ORBIT</text>
+  <text x="174" y="38" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" letter-spacing="2" fill="#E76F51">MARKET</text>
+  <text x="80" y="52" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="8.5" font-weight="700" letter-spacing="3.2" fill="#6B6872">INTELLIGENT RETAIL STUDIO</text>
+</svg>
